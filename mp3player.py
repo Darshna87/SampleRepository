@@ -39,7 +39,7 @@ def unpause():
 Button1=tkr.Button(musicplayer,width=5,height=3,font="Helvetica 12 bold",text="PLAY",command=play,bg="Red",fg="black")
 Button2=tkr.Button(musicplayer,width=5,height=3,font="Helvetica 12 bold",text="STOP",command=Exitmusicplay,bg="Red",fg="black")
 Button3=tkr.Button(musicplayer,width=5,height=3,font="Helvetica 12 bold",text="PAUSE",command=pause,bg="Red",fg="black")
-Button4=tkr.Button(musicplayer,width=5,height=3,font="Helvetica 12 bold",text="UNPAUSE",command=unpause,bg="Red",fg="black")
+Button5=tkr.Button(musicplayer,width=5,height=3,font="Helvetica 12 bold",text="UNPAUSE",command=unpause,bg="Red",fg="black")
 
 var=tkr.StringVar()
 songtitle=tkr.Label(musicplayer,font="Helvetica 12 bold",textvariable=var)
@@ -48,7 +48,7 @@ songtitle.pack()
 Button1.pack(fill="x")
 Button2.pack(fill="x")
 Button3.pack(fill="x")
-Button4.pack(fill="x")
+Button5.pack(fill="x")
 playlist.pack(fill="both",expand="yes")
 
 musicplayer.mainloop()
